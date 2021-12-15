@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Gmarket Sans Medium;
+  src: url('./utils/cssFonts/GmarketSansMedium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: SFProDisplay Medium;
+  font-weight: normal;
+  src: url('./utils/cssFonts/SB\ 어그로OTF\ M.otf') format('opentype');
+}
+
+
+/* 
+@import "tailwindcss/base";
+@import './';
+
+@import "tailwindcss/components";
+@import "./custom-components.css";
+
+@import "tailwindcss/utilities";
+@import "./custom-utilities.css"; */
